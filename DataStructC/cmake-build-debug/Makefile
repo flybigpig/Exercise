@@ -154,6 +154,86 @@ DataStructC1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/build
 .PHONY : DataStructC1/fast
 
+#=============================================================================
+# Target rules for targets named input
+
+# Build rule for target.
+input: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 input
+.PHONY : input
+
+# fast build rule for target.
+input/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input.dir\build.make CMakeFiles/input.dir/build
+.PHONY : input/fast
+
+#=============================================================================
+# Target rules for targets named input1
+
+# Build rule for target.
+input1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 input1
+.PHONY : input1
+
+# fast build rule for target.
+input1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/build
+.PHONY : input1/fast
+
+base/input.obj: base/input.c.obj
+
+.PHONY : base/input.obj
+
+# target to build an object file
+base/input.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input.dir\build.make CMakeFiles/input.dir/base/input.c.obj
+.PHONY : base/input.c.obj
+
+base/input.i: base/input.c.i
+
+.PHONY : base/input.i
+
+# target to preprocess a source file
+base/input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input.dir\build.make CMakeFiles/input.dir/base/input.c.i
+.PHONY : base/input.c.i
+
+base/input.s: base/input.c.s
+
+.PHONY : base/input.s
+
+# target to generate assembly for a file
+base/input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input.dir\build.make CMakeFiles/input.dir/base/input.c.s
+.PHONY : base/input.c.s
+
+base/input1.obj: base/input1.c.obj
+
+.PHONY : base/input1.obj
+
+# target to build an object file
+base/input1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/base/input1.c.obj
+.PHONY : base/input1.c.obj
+
+base/input1.i: base/input1.c.i
+
+.PHONY : base/input1.i
+
+# target to preprocess a source file
+base/input1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/base/input1.c.i
+.PHONY : base/input1.c.i
+
+base/input1.s: base/input1.c.s
+
+.PHONY : base/input1.s
+
+# target to generate assembly for a file
+base/input1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/base/input1.c.s
+.PHONY : base/input1.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -218,6 +298,14 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DataStructC
 	@echo ... DataStructC1
+	@echo ... input
+	@echo ... input1
+	@echo ... base/input.obj
+	@echo ... base/input.i
+	@echo ... base/input.s
+	@echo ... base/input1.obj
+	@echo ... base/input1.i
+	@echo ... base/input1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -6,4 +6,7 @@ set(CMAKE_C_STANDARD 11)
 add_executable(DataStructC main.c)
 
 
-add_executable(DataStructC1  struct/SqList.c)
+add_executable(DataStructC1 struct/SqList.c)
+
+add_executable(input base/input.c)
+add_executable(input1 base/input1.c)

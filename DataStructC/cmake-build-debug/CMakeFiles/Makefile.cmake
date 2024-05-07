@@ -48,4 +48,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DataStructC.dir/DependInfo.cmake"
   "CMakeFiles/DataStructC1.dir/DependInfo.cmake"
+  "CMakeFiles/input.dir/DependInfo.cmake"
+  "CMakeFiles/input1.dir/DependInfo.cmake"
   )
