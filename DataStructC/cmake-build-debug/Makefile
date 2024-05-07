@@ -180,6 +180,19 @@ input1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/build
 .PHONY : input1/fast
 
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
 base/input.obj: base/input.c.obj
 
 .PHONY : base/input.obj
@@ -233,6 +246,33 @@ base/input1.s: base/input1.c.s
 base/input1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\input1.dir\build.make CMakeFiles/input1.dir/base/input1.c.s
 .PHONY : base/input1.c.s
+
+base/pointer.obj: base/pointer.c.obj
+
+.PHONY : base/pointer.obj
+
+# target to build an object file
+base/pointer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/base/pointer.c.obj
+.PHONY : base/pointer.c.obj
+
+base/pointer.i: base/pointer.c.i
+
+.PHONY : base/pointer.i
+
+# target to preprocess a source file
+base/pointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/base/pointer.c.i
+.PHONY : base/pointer.c.i
+
+base/pointer.s: base/pointer.c.s
+
+.PHONY : base/pointer.s
+
+# target to generate assembly for a file
+base/pointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/base/pointer.c.s
+.PHONY : base/pointer.c.s
 
 main.obj: main.c.obj
 
@@ -300,12 +340,16 @@ help:
 	@echo ... DataStructC1
 	@echo ... input
 	@echo ... input1
+	@echo ... pointer
 	@echo ... base/input.obj
 	@echo ... base/input.i
 	@echo ... base/input.s
 	@echo ... base/input1.obj
 	@echo ... base/input1.i
 	@echo ... base/input1.s
+	@echo ... base/pointer.obj
+	@echo ... base/pointer.i
+	@echo ... base/pointer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

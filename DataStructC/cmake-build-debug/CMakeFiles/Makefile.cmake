@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DataStructC1.dir/DependInfo.cmake"
   "CMakeFiles/input.dir/DependInfo.cmake"
   "CMakeFiles/input1.dir/DependInfo.cmake"
+  "CMakeFiles/pointer.dir/DependInfo.cmake"
   )

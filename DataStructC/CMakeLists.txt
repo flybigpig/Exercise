@@ -10,3 +10,5 @@ add_executable(DataStructC1 struct/SqList.c)
 
 add_executable(input base/input.c)
 add_executable(input1 base/input1.c)
+
+add_executable(pointer base/pointer.c)
