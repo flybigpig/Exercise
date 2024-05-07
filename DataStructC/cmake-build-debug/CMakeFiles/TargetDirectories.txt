@@ -1,3 +1,4 @@
 D:/k8s/Algorithms/DataStructC/cmake-build-debug/CMakeFiles/DataStructC.dir
 D:/k8s/Algorithms/DataStructC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/k8s/Algorithms/DataStructC/cmake-build-debug/CMakeFiles/DataStructC1.dir
 D:/k8s/Algorithms/DataStructC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

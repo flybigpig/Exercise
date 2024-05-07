@@ -141,6 +141,19 @@ DataStructC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC.dir\build.make CMakeFiles/DataStructC.dir/build
 .PHONY : DataStructC/fast
 
+#=============================================================================
+# Target rules for targets named DataStructC1
+
+# Build rule for target.
+DataStructC1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructC1
+.PHONY : DataStructC1
+
+# fast build rule for target.
+DataStructC1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/build
+.PHONY : DataStructC1/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -168,6 +181,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC.dir\build.make CMakeFiles/DataStructC.dir/main.c.s
 .PHONY : main.c.s
 
+struct/SqList.obj: struct/SqList.c.obj
+
+.PHONY : struct/SqList.obj
+
+# target to build an object file
+struct/SqList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/struct/SqList.c.obj
+.PHONY : struct/SqList.c.obj
+
+struct/SqList.i: struct/SqList.c.i
+
+.PHONY : struct/SqList.i
+
+# target to preprocess a source file
+struct/SqList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/struct/SqList.c.i
+.PHONY : struct/SqList.c.i
+
+struct/SqList.s: struct/SqList.c.s
+
+.PHONY : struct/SqList.s
+
+# target to generate assembly for a file
+struct/SqList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/struct/SqList.c.s
+.PHONY : struct/SqList.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,9 +217,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructC
+	@echo ... DataStructC1
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... struct/SqList.obj
+	@echo ... struct/SqList.i
+	@echo ... struct/SqList.s
 .PHONY : help
 
 
