@@ -12,3 +12,6 @@ add_executable(input base/input.c)
 add_executable(input1 base/input1.c)
 
 add_executable(pointer base/pointer.c)
+
+
+add_executable(kmp struct/kmp.c)

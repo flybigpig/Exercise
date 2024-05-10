@@ -193,6 +193,19 @@ pointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer.dir\build.make CMakeFiles/pointer.dir/build
 .PHONY : pointer/fast
 
+#=============================================================================
+# Target rules for targets named kmp
+
+# Build rule for target.
+kmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 kmp
+.PHONY : kmp
+
+# fast build rule for target.
+kmp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kmp.dir\build.make CMakeFiles/kmp.dir/build
+.PHONY : kmp/fast
+
 base/input.obj: base/input.c.obj
 
 .PHONY : base/input.obj
@@ -328,6 +341,33 @@ struct/SqList.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC1.dir\build.make CMakeFiles/DataStructC1.dir/struct/SqList.c.s
 .PHONY : struct/SqList.c.s
 
+struct/kmp.obj: struct/kmp.c.obj
+
+.PHONY : struct/kmp.obj
+
+# target to build an object file
+struct/kmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kmp.dir\build.make CMakeFiles/kmp.dir/struct/kmp.c.obj
+.PHONY : struct/kmp.c.obj
+
+struct/kmp.i: struct/kmp.c.i
+
+.PHONY : struct/kmp.i
+
+# target to preprocess a source file
+struct/kmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kmp.dir\build.make CMakeFiles/kmp.dir/struct/kmp.c.i
+.PHONY : struct/kmp.c.i
+
+struct/kmp.s: struct/kmp.c.s
+
+.PHONY : struct/kmp.s
+
+# target to generate assembly for a file
+struct/kmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kmp.dir\build.make CMakeFiles/kmp.dir/struct/kmp.c.s
+.PHONY : struct/kmp.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -340,6 +380,7 @@ help:
 	@echo ... DataStructC1
 	@echo ... input
 	@echo ... input1
+	@echo ... kmp
 	@echo ... pointer
 	@echo ... base/input.obj
 	@echo ... base/input.i
@@ -356,6 +397,9 @@ help:
 	@echo ... struct/SqList.obj
 	@echo ... struct/SqList.i
 	@echo ... struct/SqList.s
+	@echo ... struct/kmp.obj
+	@echo ... struct/kmp.i
+	@echo ... struct/kmp.s
 .PHONY : help
 
 
