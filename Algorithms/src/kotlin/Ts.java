@@ -8,6 +8,7 @@ public class Ts {
         Test();
     }
 
+    //  对象的引用
     private static void Test() {
         User user = new User("123", 12);
         ArrayList<User> users = new ArrayList<>();
