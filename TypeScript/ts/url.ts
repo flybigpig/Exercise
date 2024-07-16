@@ -9,6 +9,11 @@ url = "https://mobilekh.yto.net.cn/#/helpCenter?&token=BearereyJhbGciOiJIUzUxMiJ
 url = "https://mobilekh.yto.net.cn/#/problemOrder/index?userCode=a3f82d4ab8614303a9dc28f547ba43b4&token=BearereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhM2Y4MmQ0YWI4NjE0MzAzYTlkYzI4ZjU0N2JhNDNiNCIsImNyZWF0ZWQiOjE3MTc0Nzc2Mzk2NDcsImV4cCI6MTcyMDA2OTYzOX0.Up4Ix4z4BzvCIwhJHhWyvs9uKOGIXf8X7JekbjDwjnVu_xSvRiKJLiFJGvsI4zka0hG28UIZFQDnxGppnOrbBA&groupId=2608799&phone=18392391572"
 
 url = "https://mobilekh.yto.net.cn/#/indicatorDescription/index?token=BearereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhM2Y4MmQ0YWI4NjE0MzAzYTlkYzI4ZjU0N2JhNDNiNCIsImNyZWF0ZWQiOjE3MTc0Nzc2Mzk2NDcsImV4cCI6MTcyMDA2OTYzOX0.Up4Ix4z4BzvCIwhJHhWyvs9uKOGIXf8X7JekbjDwjnVu_xSvRiKJLiFJGvsI4zka0hG28UIZFQDnxGppnOrbBA&version=73.2.0.1"
+
+
+url = "https://mobilekh.yto.net.cn/#/receiveMonitoring/index?userCode=0527ea671c884acf8c4ef07f7a386177&token=BearereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwNTI3ZWE2NzFjODg0YWNmOGM0ZWYwN2Y3YTM4NjE3NyIsImNyZWF0ZWQiOjE3MjA2NjQ1OTk0MTcsImV4cCI6MTcyMzI1NjU5OX0.m-Lpoq8dm5fQMoz21ldQlkE9b-DFj2KK4-r1QsatiqUfE7v718O709N-bkHFx1OYVFvBDf0ICcp-MbseGRfCrg&groupId=337472&phone=17000000000"
+
+url="https://mobilekh.yto.net.cn/#/fullLinkControl/index?userCode=0527ea671c884acf8c4ef07f7a386177&token=BearereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwNTI3ZWE2NzFjODg0YWNmOGM0ZWYwN2Y3YTM4NjE3NyIsImNyZWF0ZWQiOjE3MjEwMjY0MDAzODUsImV4cCI6MTcyMzYxODQwMH0.PINdA6DBKSIL7tzz8psqiam5BbINEIYstT2nUlzwqeHZCNSM79RI-nHHiqMB9gcN_W4Jbk6uQVgortPgK3raCw&groupId=337472&phone=17000000000&userCode=0527ea671c884acf8c4ef07f7a386177&version=1.0.0"
 function urlQueryToArr( url :string) {
     const arr = url.split('?')[1].split('&');
    return arr

@@ -22,9 +22,17 @@ export const formatAmount = (num: number | string, symbol?: string) => {
 }
 
 export const formatAmounts = (num: number ) => {
-    return num ? num.toLocaleString('zh', { style: 'currency', currency:  'CNY' }) : num
+    return num ? num.toLocaleString('zh', { style: 'currency', currency:  'CNY' }) : "￥"+ num
 }
 
-let res =formatAmount(9.15,"USD")  // 输出 US$9.15
- res =formatAmounts(9)  // 输出 US$9.15
+let res =formatAmount(0.00,"CNY")  // 输出 US$9.15
+//  res =formatAmounts(0)  // 输出 US$9.15
 console.log(res)
+
+let ress =formatAmount(0.00,"USD")  // 输出 US$9.15
+ ress =formatAmounts(0)
+ console.log(ress)
+
+
+
+ 
