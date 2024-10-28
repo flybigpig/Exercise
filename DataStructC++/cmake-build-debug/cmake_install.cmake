@@ -1,4 +1,4 @@
-# Install script for directory: D:/k8s/Algorithms/DataStruct
+# Install script for directory: D:/k8s/Algorithms/DataStructC++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/k8s/Algorithms/DataStruct/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/k8s/Algorithms/DataStructC++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
