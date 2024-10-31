@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DataStruct
+# Target rules for targets named DataStructC++
 
 # Build rule for target.
-DataStruct: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStruct
-.PHONY : DataStruct
+DataStructC++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructC++
+.PHONY : DataStructC++
 
 # fast build rule for target.
-DataStruct/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStruct.dir\build.make CMakeFiles/DataStruct.dir/build
-.PHONY : DataStruct/fast
+DataStructC++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC++.dir\build.make CMakeFiles/DataStructC++.dir/build
+.PHONY : DataStructC++/fast
 
-main.obj: main.cpp.obj
+cpp/main.obj: cpp/main.cpp.obj
 
-.PHONY : main.obj
+.PHONY : cpp/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStruct.dir\build.make CMakeFiles/DataStruct.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+cpp/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC++.dir\build.make CMakeFiles/DataStructC++.dir/cpp/main.cpp.obj
+.PHONY : cpp/main.cpp.obj
 
-main.i: main.cpp.i
+cpp/main.i: cpp/main.cpp.i
 
-.PHONY : main.i
+.PHONY : cpp/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStruct.dir\build.make CMakeFiles/DataStruct.dir/main.cpp.i
-.PHONY : main.cpp.i
+cpp/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC++.dir\build.make CMakeFiles/DataStructC++.dir/cpp/main.cpp.i
+.PHONY : cpp/main.cpp.i
 
-main.s: main.cpp.s
+cpp/main.s: cpp/main.cpp.s
 
-.PHONY : main.s
+.PHONY : cpp/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStruct.dir\build.make CMakeFiles/DataStruct.dir/main.cpp.s
-.PHONY : main.cpp.s
+cpp/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructC++.dir\build.make CMakeFiles/DataStructC++.dir/cpp/main.cpp.s
+.PHONY : cpp/main.cpp.s
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStruct
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... DataStructC++
+	@echo ... cpp/main.obj
+	@echo ... cpp/main.i
+	@echo ... cpp/main.s
 .PHONY : help
 
 

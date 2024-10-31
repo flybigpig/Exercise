@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DataStructC++.dir/objects.a
+D:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\DataStructC++.dir/objects.a @CMakeFiles\DataStructC++.dir\objects1.rsp
+D:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\DataStructC++.dir/objects.a -Wl,--no-whole-archive -o DataStructC++.exe -Wl,--out-implib,libDataStructC++.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DataStructC++.dir\linklibs.rsp
