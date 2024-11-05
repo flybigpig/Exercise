@@ -1,0 +1,3 @@
+D:/k8s/Algorithms/build/CMakeFiles/DataStructC++.dir
+D:/k8s/Algorithms/build/CMakeFiles/edit_cache.dir
+D:/k8s/Algorithms/build/CMakeFiles/rebuild_cache.dir

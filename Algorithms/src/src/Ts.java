@@ -1,14 +1,14 @@
-package kotlin;
+package src;
 
 import java.util.ArrayList;
 
 public class Ts {
 
     public static void main(String[] args) {
-        Test();
+        System.out.println("Hello world!");
     }
 
-    //  对象的引用
+    // 对象的引用
     private static void Test() {
         User user = new User("123", 12);
         ArrayList<User> users = new ArrayList<>();

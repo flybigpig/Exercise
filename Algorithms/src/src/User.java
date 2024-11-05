@@ -1,11 +1,11 @@
-package kotlin;
+package src;
 
 public class User {
-   String name ;
+   String name;
    int age;
 
    public User(String number, int i) {
-      this.name =number;
+      this.name = number;
       this.age = i;
    }
 
@@ -28,8 +28,8 @@ public class User {
    @Override
    public String toString() {
       return "User{" +
-              "name='" + name + '\'' +
-              ", age=" + age +
-              '}';
+            "name='" + name + '\'' +
+            ", age=" + age +
+            '}';
    }
 }

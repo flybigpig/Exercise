@@ -1,4 +1,4 @@
-package kotlin;
+package src;
 
 public class HomeMenu {
     String name;
