@@ -34,7 +34,7 @@ void pointerDemo() {
     for(int i = 0; i < 3; i++) {
         cout << "Element " << i << ": " << *(numPtr + i) << endl;
     }
-     
+    
     // 6. ¿ÕÖ¸Õë
     int* nullPtr = nullptr;
     if(nullPtr == nullptr) {
