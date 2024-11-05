@@ -5,7 +5,6 @@ public class Prime {
     public static void main(String[] args) {
 //        System.out.println(isPrime(5));
         getPrime();
-        System.out.println(sqrt(25));
     }
 
     /**
