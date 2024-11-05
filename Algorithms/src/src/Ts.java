@@ -9,6 +9,7 @@ public class Ts {
     }
 
     // 对象的引用
+    @SuppressWarnings({ "unused" })
     private static void Test() {
         User user = new User("123", 12);
         ArrayList<User> users = new ArrayList<>();
