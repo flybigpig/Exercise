@@ -9,13 +9,6 @@
       "projectName": "Algorithms_7e124186"
     },
     {
-      "type": "java",
-      "name": "Ts",
-      "request": "launch",
-      "mainClass": "src.Ts",
-      "projectName": "Algorithms_7e124186"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

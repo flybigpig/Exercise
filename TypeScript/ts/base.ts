@@ -29,22 +29,3 @@ y.toFixed();    // 正确
 
 
 
-let arrayList: any[] = [1, false, 'fine'];
-arrayList[1] = 100;
-
-let  s= {a:1,b:2}
-console.log(s.b+s.a)
-
-
-// 启用 --strictNullChecks
-let z: number | null | undefined;
-z = 1; // 编译正确
-console.log("z  =" + z)
-z = undefined;    // 编译正确
-console.log("z  =" +z)
-z = null;    // 编译正确
-console.log("z  =" +z)
-
-var uname:string = "Runoob";
-
-console.log(uname)
