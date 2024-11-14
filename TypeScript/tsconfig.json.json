@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "ts-node": { "esm": true },
+      "esModuleInterop": true
+    },
+    "include": ["clear.ts"]
+  }

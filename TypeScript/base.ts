@@ -4,7 +4,7 @@ const hello : string = "Hello World!"
 console.log(hello)
 
 let binaryLiteral: number = 0b1010; // 二进制
-let octalLiteral: number = 0o744;    // 八进制
+let octalLiteral: number = 0o744;    // 八进制baasda
 let decLiteral: number = 6;    // 十进制
 let hexLiteral: number = 0xf00d;    // 十六进制
 
