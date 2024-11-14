@@ -19,7 +19,7 @@ function login(username, password) {
 
 
 function sort(arr) {
-    // ÊµÏÖÃ°ÅÝÅÅÐòËã·¨
+    // Êµï¿½ï¿½Ã°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã·¨
     if (!Array.isArray(arr)) {
         throw new Error('Input must be an array');
     }
@@ -28,7 +28,7 @@ function sort(arr) {
     for (let i = 0; i < len - 1; i++) {
         for (let j = 0; j < len - 1 - i; j++) {
             if (arr[j] > arr[j + 1]) {
-                // ½»»»ÔªËØ
+                // ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
                 [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
             }
         }
@@ -36,9 +36,9 @@ function sort(arr) {
     return arr;
 }
 
-// ²âÊÔÅÅÐòº¯Êý
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 console.log(sort([64, 34, 25, 12, 22, 11, 90]));
-// ÈÕÖ¾´òÓ¡
+// ï¿½ï¿½Ö¾ï¿½ï¿½Ó¡
 console.log("123123")
 
 
@@ -79,11 +79,11 @@ function inorderTraversal(tree) {
     return result;
 }
 
-// ²âÊÔ¶þ²æÊ÷
+// ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½
 const tree = createBinaryTree(5);
 insertNode(tree, 3);
 insertNode(tree, 7);
 insertNode(tree, 1);
 insertNode(tree, 9);
 
-console.log("ÖÐÐò±éÀú½á¹û:", inorderTraversal(tree)); // [1, 3, 5, 7, 9]
+console.log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:", inorderTraversal(tree)); // [1, 3, 5, 7, 9]

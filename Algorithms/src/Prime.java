@@ -4,15 +4,16 @@
  */
 public class Prime {
 
-    public static void main(String[] args) {
-//        System.out.println(isPrime(5));
+    public static void main(String[] args) { 
+        
+//        System.out.println(isPrime(5)); 
         getPrime();
     }
 
     /**
      * 平方�?
-     *
-     * @param x
+     * 
+     * @param x 
      * @return
      */
     public static boolean isPrime(int x) {
