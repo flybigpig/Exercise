@@ -1,14 +1,17 @@
+
 /**
  * 素数
  */
 public class Prime {
+
     public static void main(String[] args) {
 //        System.out.println(isPrime(5));
         getPrime();
     }
 
     /**
-     * 平方根
+     * 平方�?
+     *
      * @param x
      * @return
      */
@@ -17,8 +20,9 @@ public class Prime {
             return false;
         }
         for (int i = 2; i * i <= x; i++) {
-            if (x % i == 0)
+            if (x % i == 0) {
                 return false;
+            }
         }
         return true;
     }
