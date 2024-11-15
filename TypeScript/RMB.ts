@@ -33,6 +33,6 @@ let ress =formatAmount(0.00,"USD")  // 输出 US$9.15
  ress =formatAmounts(0)
  console.log(ress)
 
-
+// asdasd
 
  

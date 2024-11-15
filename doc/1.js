@@ -86,4 +86,4 @@ insertNode(tree, 7);
 insertNode(tree, 1);
 insertNode(tree, 9);
 
-console.log("����������:", inorderTraversal(tree)); // [1, 3, 5, 7, 9]
+console.log("asdasd:", inorderTraversal(tree)); // [1, 3, 5, 7, 9]
