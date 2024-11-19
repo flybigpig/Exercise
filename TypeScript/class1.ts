@@ -12,5 +12,5 @@ class Shape {
     } 
  }
    
- var o = new Circle(223); 
+ var o = new Circle(2.23); 
  o.disp()
