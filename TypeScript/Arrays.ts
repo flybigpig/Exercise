@@ -7,7 +7,6 @@ let n=Math.ceil(15/12)
 
 console.log(i +"  "+ n)
 
-// 锟斤拷锟斤拷锟斤拷录锟斤拷锟截的接口猴拷锟斤拷锟酵讹拷锟斤拷
 interface LoginCredentials {
     username: string;
     password: string;
@@ -19,11 +18,8 @@ interface LoginResponse {
     error?: string;
 }
 
-// 锟斤拷录锟斤拷锟斤拷
 async function login(credentials: LoginCredentials): Promise<LoginResponse> {
     try {
-        // 锟斤拷锟斤拷应锟斤拷锟斤拷实锟绞的碉拷录API锟斤拷锟斤拷
-        // 示锟斤拷实锟斤拷
         const response = await fetch('/api/login', {
             method: 'POST',
             headers: {
@@ -46,7 +42,7 @@ async function login(credentials: LoginCredentials): Promise<LoginResponse> {
     }
 }
 
-// 使锟斤拷示锟斤拷
+
 const loginExample = async () => {
     const result = await login({
         username: 'testuser',
