@@ -7,6 +7,8 @@ let n=Math.ceil(15/12)
 
 console.log(i +"  "+ n)
 
+// 登录功能
+
 interface LoginCredentials {
     username: string;
     password: string;
@@ -50,8 +52,8 @@ const loginExample = async () => {
     });
 
     if (result.success) {
-        console.log('锟斤拷录锟缴癸拷:', result.token);
+        console.log('接口请求成功:', result.token);
     } else {
-        console.error('锟斤拷录失锟斤拷:', result.error);
+        console.error('接口请求失败:', result.error);
     }
 };

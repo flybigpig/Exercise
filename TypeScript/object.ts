@@ -8,7 +8,7 @@ class Site {
        console.log("Runoob") 
     } 
  } 
- var obj = new Site(); 
- obj.name();
+ var objs = new Site(); 
+ objs.name();
 
  
