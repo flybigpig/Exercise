@@ -98,7 +98,10 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "list": "cpp",
-    "thread": "cpp"
+    "thread": "cpp",
+    "ratio": "cpp",
+    "chrono": "cpp",
+    "ctime": "cpp"
   },
   "sqltools.connections": [
     {
