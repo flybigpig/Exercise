@@ -63,7 +63,7 @@ int main()
     pointerDemo();
 
     // ÷∏’Î≤‚ ‘
-    bool* isSunny ;
+    bool* isSunny = nullptr ;
     cout << "Is it sunny (y/n)? ";
     char userInput = 'y';
     cin >> userInput;
