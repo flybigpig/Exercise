@@ -1,7 +1,4 @@
 
-
-
-
 @Component
 struct Home {
     build() {
