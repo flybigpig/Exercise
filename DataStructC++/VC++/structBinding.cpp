@@ -17,7 +17,7 @@ int main() {
     // 1. 绑定数组
     int arr[] = {10, 20};
     auto [a, b] = arr;
-    std::cout << "数组绑定 - a: " << a << ", b: " << b << std::endl;
+    std::cout << "array binding - a: " << a << ", b: " << b << std::endl;
 
     // 2. 绑定结构体
     struct Point {
@@ -26,17 +26,17 @@ int main() {
     };
     Point p = {3, 4};
     auto [x, y] = p;
-    std::cout << "结构体绑定 - x: " << x << ", y: " << y << std::endl;
+    std::cout << "struct binding - x: " << x << ", y: " << y << std::endl;
 
     // 3. 绑定pair
     std::pair<int, double> pair = {1, 2.5};
     auto [first, second] = pair;
-    std::cout << "pair绑定 - first: " << first << ", second: " << second << std::endl;
+    std::cout << "pair binding - first: " << first << ", second: " << second << std::endl;
 
     // 4. 绑定tuple
     std::tuple<int, std::string, double> tuple = {1, "hello", 3.14};
     auto [num, str, dbl] = tuple;
-    std::cout << "tuple绑定 - num: " << num << ", str: " << str << ", dbl: " << dbl << std::endl;
+    std::cout << "tuple binding - num: " << num << ", str: " << str << ", dbl: " << dbl << std::endl;
 
     return 0;//
 }
